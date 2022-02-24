@@ -17,7 +17,7 @@ Use Case:
  2. `cd automationpractice`
  3. `python -m venv venv`
  4. If Windows `venv\Scripts\activate`
- 5. `pip install -r requiremnts.txt`
+ 5. `pip install -r requirements.txt`
  6. `python tests.py`
 
 ## NOTE:
