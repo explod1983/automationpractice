@@ -1,0 +1,29 @@
+
+# Practice test selenium by O.Sergyeyev
+
+## Goal:
+Create a set of automated tests using this website: [http://automationpractice.com/index.php] as the product under test.
+
+Select the scenarios you think are most important for this application (a mix of business and user needs) and implement them.
+
+## Solution:
+Due to lack of time and plenty of business use-cases, I have decided to develop one E2E use case.
+Use Case:
+ - A potential user opens the home page, selects a product he\she liked, sets the needed amount by pressing the according button, and goes through the registration and payment process with several checks during all these actions.
+
+## How to run:
+
+ 1. Clone the project
+ 2. `cd automationpractice`
+ 3. `python -m venv venv`
+ 4. If Windows `venv\Scripts\activate`
+ 5. `pip install -r requiremnts.txt`
+ 6. `python tests.py`
+
+## NOTE:
+There are plenty of moments that need to be improved in the Test Framework, test environmnet and the test case itself, but I couldn't afford to spend a lot of time solving all of them.
+
+## Additional info:
+Please Find Manual test cases in the documentation:
+
+    automationpractice\Doc\Manual_Test_Cases.csv

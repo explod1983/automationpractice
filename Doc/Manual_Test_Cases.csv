@@ -1,0 +1,25 @@
+#,Test design method,Test Type,Scope,Block,Test case,Expected Result,Actuall Result/Note,Note
+1,Expirienced based,UI\UX,Search,Search field,Empty line search,Empty line search inactive,New page with empty list of results,"Empty line search is excess. User can press by mistake, which lead to new page with empty results. No Sense."
+2,Expirienced based,Functional,Contact us,Send message,Confirmation email,User should receive confirmation email,User is not recieving a confirmation letter to the user's email,
+3,Expirienced based,Functional,User registration,"Registration field ""Country""",Countries list,Full list of contries should be available,Only one country in the list,
+4,Expirienced based,Functional,User registration,"Registration field ""Country""",Error display,"One error, userfriendly described",Several errors for one field with almost  same sense,
+5,Expirienced based,UI\UX,User registration,"Registration field ""Address""",Note text color,Grey color,"class=""inline-infos"" marked red, could misslead user ",
+6,Expirienced based,UI\UX,User registration,Registration Phone section,Note text color,Grey color,"class=""inline-infos"" marked red, could misslead user ",
+7,Expirienced based,Functional,User registration,Account created,Email confirmation,User should receive confirmation email,User is not recieving a confirmation letter to the user's email,
+8,Expirienced based,Functional,User login,Password restoring,"""Forgot your password""",Email with reset or new passwrod should be sent,User is not recieving an email,
+9,Expirienced based,UI\UX,Banner,block banner,Banner link,The link should lead to a list of discounted products,Pointless page refresh,
+10,Expirienced based,Functional,Banner,block banner,"Banner button ""GET SAVINGS NOW""",The link should lead to a list of discounted products,"Could misslead user, Pointless page refresh, ",Possible remove button at all.
+11,Expirienced based,UI\UX,Categories,block_top_menu,Possibly excess Category level,,,"There is no point to have  ""Women"" category, as it is only one."
+12,Expirienced based,UI\UX,Categories,block_top_menu,Categories list,"""WOMEN, DRESSES, TOPS""","""WOMEN, DRESSES, T-SHIRTS""",
+13,Expirienced based,UI\UX,Categories,block_top_menu,Categories dropdown menu,One type of dropdown menu should be used,"Categories ""WOMEN"" and ""DRESSES"" has different dropdown menus types",
+14,Expirienced based,UI\UX,Categories,block_top_menu,"Category ""T-SHIRTS"" drop down menu",Dropdown menu should be,"Category ""T-SHIRTS"" doesn't have drop down menu",
+15,Expirienced based,UI\UX,Categories,content_scene_cat,"Block ""content_scene_cat"" takes up a lot of space",,,User had to scroll to find content
+16,Expirienced based,UI\UX,Categories,"id=""categories_block_left""",Category Left Block menu,Implementation should be consistent,Implementation is different for different levels. Full levels tree should be always shown.,
+17,Expirienced based,UI\UX,Categories,Filter Color,Selector check mark,Should be visible if selected,Not visible,
+18,Expirienced based,UI\UX,Categories,Manufacturer,Check box and text,Should be on one line,"In full screen, text shows under checkbox",
+19,Expirienced based,UI\UX,Products,Sorting,Sort by: Highest first,"Product with highest price on first place, lowest last","Lowest first, Highest last",
+20,Expirienced based,UI\UX,Social media,G+,Outdated service shouldn't  be supported,,,it does
+21,Expirienced based,UI\UX,Social media,Facebook,Home page Facebook block,"Icon with a link to FB if shown, block's borders in one line with whole block","No links to FB, empty not active text field shown instead. Wrong bottom border, not in one line with the whole block.",
+22,Expirienced based,Functional,Product review,Adding review,Add review,Review have been added and visible,"Review is not shown, Not possible to add one more, only after page refresh button to add review appears.",
+23,Expirienced based,Security,Backend,Secure connection,"HTTPS, SSL Certificate","HTTPS is enabled, Certifacte in place.",No certificate,
+24,Expirienced based,Functional,Home page,Sale Banners,The link should lead to a list of discounted products,The link should lead to a list of discounted products,Lead to outside source,
